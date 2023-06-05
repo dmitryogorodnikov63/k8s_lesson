@@ -1,0 +1,12 @@
+1 под
+3 сервиса, docker-registry-service, mysql-service, webapp-service
+1 configMaps mysql-configmap
+1 secret mysql-secret
+1 ingress controller
+
+Софт
+image mysql:
+
+image webapp: mysql-php-plugin
+
+image docker-registry:
